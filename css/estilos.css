@@ -220,7 +220,7 @@ h1 {
 }
 
 .icon img {
-  max-width: 10%;
+  max-width: 11%;
   height: auto;
 }
 
@@ -291,7 +291,6 @@ textarea {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 50px 100px 50px 50px;
 }
 
 .float {
