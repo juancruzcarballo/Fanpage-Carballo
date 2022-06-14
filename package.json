@@ -296,5 +296,13 @@
     "yargs": "^17.5.1",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancruzcarballo/Fanpage-Carballo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juancruzcarballo/Fanpage-Carballo/issues"
+  },
+  "homepage": "https://github.com/juancruzcarballo/Fanpage-Carballo#readme",
   "description": ""
 }

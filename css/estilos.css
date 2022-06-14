@@ -172,11 +172,11 @@ h1 {
   justify-content: center;
 }
 
-#poema {
+.poema {
   width: 100%;
   color: black;
   font-size: 1rem;
-  padding: 5px 40px 50px 40px;
+  padding: 5px 10px 5px 10px;
 }
 
 .halcon {
