@@ -3,7 +3,7 @@
 
 <head>
     <title>Formulario</title>
-     <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
@@ -16,58 +16,67 @@
     <div id="header">
         <input type="checkbox" id="toggle-btn">
         <label for="toggle-btn" class="show-menu-btn"><i class="fas fa-bars"></i></label>
-
         <nav>
             <ul class="navigation">
                 <li><a href="index.html"> Home</a></li>
                 <li><a href="biografía.html"> Biografía</a></li>
                 <li><a href="eventos.html"> Eventos</a></li>
                 <li><a href="libros.html"> Libros</a></li>
-               
                 <label for="toggle-btn" class="hide-menu-btn"></label>
             </ul>
         </nav>
     </div>
-        <h1>Contacto</h1>
-        <div class="container">
-            <form action="action_page.php">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre...">
-                <label for="apellido">Apellido</label>
-                <input type="text" id="apellido" name="apellido" placeholder="Tu apellido...">
-                <label for="e-mail">E-mail</label>
-                <input type="text" id="e-mail" name="e-mail" placeholder="Tu e-mail...">
-                <label for="sexo">Sexo</label>
-                <select id="sexo" name="Sexo">
-                    <option value=""></option>
-                    <option value="femenino">Femenino</option>
-                    <option value="masculino">Masculino</option>
-                    <option value="no binario">No binario</option>
-                </select>
-                <label for="mensaje">Mensaje</label>
-                <textarea id="subject" name="subject" placeholder="Escriba su mensaje aquí..."></textarea>
-                <div>
-                    <input type="submit" name="enviar" value="ENVIAR">
-                    <input type="reset" name="limpiar" value="LIMPIAR">
-                </div>
-            </form>
-        </div>
-        <div id="footer">
-            <div class="icon">
-                <ul class="iconvar">
-                    <p>Creado por Juan Cruz Carballo</p><span class="span">|</span>
-                    <p>Todos los derechos reservados &copy;2022</p><span class="span"></span>
-                    <li>
-                        <a href="https://www.facebook.com/capitanpablo.carballo" target="_blank">
-                            <img src="Assets/faceblack.png" alt="facebook">
-                        </a>
-                        <a href="https://twitter.com/fuerzaaerea_arg/status/966788689828331520?lang=en" target="_blank">
-                            <img src="Assets/twitgris.png" alt="twitter">
-                        </a>
-                    </li>
-                </ul>
+    <h1>Contacto</h1>
+    <div class="container">
+        <form action="action_page.php">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre...">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Tu apellido...">
+            <label for="e-mail">E-mail</label>
+            <input type="text" id="e-mail" name="e-mail" placeholder="Tu e-mail...">
+            <label for="sexo">Sexo</label>
+            <select id="sexo" name="Sexo">
+                <option value=""></option>
+                <option value="femenino">Femenino</option>
+                <option value="masculino">Masculino</option>
+                <option value="no binario">No binario</option>
+            </select>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="subject" name="subject" placeholder="Escriba su mensaje aquí..."></textarea>
+            <div>
+                <input type="reset" name="limpiar" value="LIMPIAR">
+                <a href="#modal" id="show-modal">ENVIAR</a>
+                <aside id="modal" class="modal">
+                    <div class="content-modal">
+                        <header>
+                            <a href="#" class="close-modal">X</a>
+                            <h2>Mensaje enviado</h2>
+                            <h3></h3>
+                        </header>
+                        <article>¡Te contactaremos lo antes posible!</article>
+                    </div>
+                    <a href="#" class="btn-close-modal"></a>
+                </aside>
             </div>
-        </div>   
+        </form>
+    </div>
+    <div id="footer">
+        <div class="icon">
+            <ul class="iconvar">
+                <p>Creado por Juan Cruz Carballo</p><span class="span">|</span>
+                <p>Todos los derechos reservados &copy;2022</p><span class="span"></span>
+                <li>
+                    <a href="https://www.facebook.com/capitanpablo.carballo" target="_blank">
+                        <img src="Assets/faceblack.png" alt="facebook">
+                    </a>
+                    <a href="https://twitter.com/fuerzaaerea_arg/status/966788689828331520?lang=en" target="_blank">
+                        <img src="Assets/twitgris.png" alt="twitter">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>

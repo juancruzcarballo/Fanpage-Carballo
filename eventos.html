@@ -3,21 +3,17 @@
 
 <head>
     <title>Eventos</title>
-     <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
-    <a href="https://api.whatsapp.com/send?phone=5493512699358&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20...%20" class="float" target="_blank"><i class="fa-brands fa-whatsapp my-float"></i>
-    </a>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 
 <body style="background: url('Assets/entrevista.jpg') no-repeat; background-size: cover;">
-    
-        <div id="header">
+    <div id="header">
         <input type="checkbox" id="toggle-btn">
         <label for="toggle-btn" class="show-menu-btn"><i class="fas fa-bars"></i></label>
-
         <nav>
             <ul class="navigation">
                 <li><a href="index.html"> Home</a></li>
@@ -28,169 +24,277 @@
             </ul>
         </nav>
     </div>
-        <h1>Eventos</h1>
-        <div class="events_area">
-                <div class="single_event">
-                    <div class="event_details">
-                        <div>
-                            <div class="date"><span>02</span>Junio</div>
-                            <div class="time-location">
-                                <p><span></span> 11:00 AM - 13:00 PM</p>
-                                <p><span></span> "La Rural" <br> Av. Santa Fe 4201, CABA.</p>
-                            </div>
-                        </div>
-                        <p>
-                            Feria Internacional del Libro
-                        </p>
-                        <br>
-                        <a href="blue" class="blue">Reserva tu Lugar</a>
+    <h1>Eventos</h1>
+    <div class="events_area">
+        <div class="single_event">
+            <div class="event_details">
+                <div>
+                    <div class="date"><span>02</span>Junio</div>
+                    <div class="time-location">
+                        <p><span></span> 11:00 AM - 13:00 PM</p>
+                        <p><span></span> "La Rural" <br> Av. Santa Fe 4201, CABA.</p>
                     </div>
                 </div>
-                 <div class="single_event">
-                    <div class="event_details">
-                        <div>
-                            <div class="date"><span>02</span> Junio</div>
-                            <div class="time-location">
-                                <p><span></span> 11:00 AM - 13:00 PM</p>
-                                <p><span></span> "La Rural" <br> Av. Santa Fe 4201, CABA.</p>
-                            </div>
+                <p>
+                    Feria Internacional del Libro
+                </p>
+                <br>
+                <div>
+                    <a href="#modal" id="show-modal">ENVIAR</a>
+                    <aside id="modal" class="modal">
+                        <div class="content-modal">
+                            <header>
+                                <a href="#" class="close-modal">X</a>
+                                <h2>¡Reserva realizada!</h2>
+                            </header>
+                            <article>¡Te esperamos!</article>
                         </div>
-                        <p>
-                            Feria Internacional del Libro
-                        </p>
-                        <br>
-                        <a href="blue" class="blue">Reserva tu Lugar</a>
-                    </div>
+                        <a href="#" class="btn-close-modal"></a>
+                    </aside>
                 </div>
-                 <div class="single_event">
-                    <div class="event_details">
-                        <div>
-                            <div class="date"><span>02</span> Junio</div>
-                            <div class="time-location">
-                                <p><span></span> 11:00 AM - 13:00 PM</p>
-                                <p><span></span> "La Rural" <br> Av. Santa Fe 4201, CABA.</p>
-                            </div>
-                        </div>
-                        <p>
-                            Feria Internacional del Libro
-                        </p>
-                        <br>
-                        <a href="blue" class="blue">Reserva tu Lugar</a>
-                    </div>
-                </div>          
-                 <div class="single_event">
-                    <div class="event_details">
-                        <div>
-                            <div class="date"><span>18</span> Junio</div>
-                            <div class="time-location">
-                                <p><span></span> 16:00 PM - 18:00 PM</p>
-                                <p><span></span> "Hotel Sheraton" <br> Av. Duarte Quirós 1300, Córdoba.</p>
-                            </div>
-                        </div>
-                        <p>
-                            Conferencia de Malvinas
-                        </p>
-                        <br>
-                        <a href="blue" class="blue">Reserva tu Lugar</a>
-                    </div>
-                </div>
-                 <div class="single_event">
-                    <div class="event_details">
-                        <div>
-                            <div class="date"><span>18</span> Junio</div>
-                            <div class="time-location">
-                                <p><span></span> 16:00 PM - 18:00 PM</p>
-                                <p><span></span> "Hotel Sheraton" <br> Av. Duarte Quirós 1300, Córdoba.</p>
-                            </div>
-                        </div>
-                        <p>
-                            Conferencia de Malvinas
-                        </p>
-                        <br>
-                        <a href="blue" class="blue">Reserva tu Lugar</a>
-                    </div>
-                </div>
-                <div class="single_event">
-                    <div class="event_details">
-                        <div>
-                            <div class="date"><span>18</span> Junio</div>
-                            <div class="time-location">
-                                <p><span></span> 16:00 PM - 18:00 PM</p>
-                                <p><span></span> "Hotel Sheraton" <br> Av. Duarte Quirós 1300, Córdoba.</p>
-                            </div>
-                        </div>
-                        <p>
-                            Conferencia de Malvinas
-                        </p>
-                        <br>
-                        <a href="blue" class="blue">Reserva tu Lugar</a>
-                    </div>
-                </div>
-                <div class="single_event">
-                    <div class="event_details">
-                        <div>
-                            <div class="date"><span>02</span> Julio</div>
-                            <div class="time-location">
-                                <p><span></span> 10:00 AM - 11:30 PM</p>
-                                <p><span></span> "Escuelas Pías" <br> Av. 24 de Septiembre 1265, Córdoba.</p>
-                            </div>
-                        </div>
-                        <p>
-                            Conferencia de Malvinas
-                        </p>
-                        <br>
-                        <a href="blue" class="blue">Reserva tu Lugar</a>
-                    </div>
-                </div>
-                 <div class="single_event">
-                    <div class="event_details">
-                        <div>
-                            <div class="date"><span>02</span> Julio</div>
-                            <div class="time-location">
-                                <p><span></span> 10:00 AM - 11:30 PM</p>
-                                <p><span></span> "Escuelas Pías" <br> Av. 24 de Septiembre 1265, Córdoba.</p>
-                            </div>
-                        </div>
-                        <p>
-                            Conferencia de Malvinas
-                        </p>
-                        <br>
-                        <a href="blue" class="blue">Reserva tu Lugar</a>
-                    </div>
-                </div>
-                <div class="single_event">
-                    <div class="event_details">
-                        <div>
-                            <div class="date"><span>02</span> Julio</div>
-                            <div class="time-location">
-                                <p><span></span> 10:00 AM - 11:30 PM</p>
-                                <p><span></span> "Escuelas Pías" <br> Av. 24 de Septiembre 1265, Córdoba.</p>
-                            </div>
-                        </div>
-                        <p>
-                            Conferencia de Malvinas
-                        </p>
-                        <br>
-                        <a href="blue" class="blue">Reserva tu Lugar</a>
-                    </div>
-                </div>
-        </div>
-        <div id="footer">
-            <div class="icon">
-                <ul class="iconvar">
-                    <p>Creado por Juan Cruz Carballo</p><span class="span">|</span>
-                    <p>Todos los derechos reservados &copy;2022</p><span class="span"></span>
-                    <li>
-                        <a href="https://www.facebook.com/capitanpablo.carballo" target="_blank">
-                            <img src="Assets/faceblack.png" alt="facebook">
-                        </a>
-                        <a href="https://twitter.com/fuerzaaerea_arg/status/966788689828331520?lang=en" target="_blank">
-                            <img src="Assets/twitgris.png" alt="twitter">
-                        </a>
-                    </li>
-                </ul>
             </div>
         </div>
+        <div class="single_event">
+            <div class="event_details">
+                <div>
+                    <div class="date"><span>02</span> Junio</div>
+                    <div class="time-location">
+                        <p><span></span> 11:00 AM - 13:00 PM</p>
+                        <p><span></span> "La Rural" <br> Av. Santa Fe 4201, CABA.</p>
+                    </div>
+                </div>
+                <p>
+                    Feria Internacional del Libro
+                </p>
+                <br>
+                <div>
+                    <a href="#modal" id="show-modal">ENVIAR</a>
+                    <aside id="modal" class="modal">
+                        <div class="content-modal">
+                            <header>
+                                <a href="#" class="close-modal">X</a>
+                                <h2>¡Reserva realizada!</h2>
+                            </header>
+                            <article>¡Te esperamos!</article>
+                        </div>
+                        <a href="#" class="btn-close-modal"></a>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <div class="single_event">
+            <div class="event_details">
+                <div>
+                    <div class="date"><span>02</span> Junio</div>
+                    <div class="time-location">
+                        <p><span></span> 11:00 AM - 13:00 PM</p>
+                        <p><span></span> "La Rural" <br> Av. Santa Fe 4201, CABA.</p>
+                    </div>
+                </div>
+                <p>
+                    Feria Internacional del Libro
+                </p>
+                <br>
+                <div>
+                    <a href="#modal" id="show-modal">ENVIAR</a>
+                    <aside id="modal" class="modal">
+                        <div class="content-modal">
+                            <header>
+                                <a href="#" class="close-modal">X</a>
+                                <h2>¡Reserva realizada!</h2>
+                            </header>
+                            <article>¡Te esperamos!</article>
+                        </div>
+                        <a href="#" class="btn-close-modal"></a>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <div class="single_event">
+            <div class="event_details">
+                <div>
+                    <div class="date"><span>18</span> Junio</div>
+                    <div class="time-location">
+                        <p><span></span> 16:00 PM - 18:00 PM</p>
+                        <p><span></span> "Hotel Sheraton" <br> Av. Duarte Quirós 1300, Córdoba.</p>
+                    </div>
+                </div>
+                <p>
+                    Conferencia de Malvinas
+                </p>
+                <br>
+                <div>
+                    <a href="#modal" id="show-modal">ENVIAR</a>
+                    <aside id="modal" class="modal">
+                        <div class="content-modal">
+                            <header>
+                                <a href="#" class="close-modal">X</a>
+                                <h2>¡Reserva realizada!</h2>
+                            </header>
+                            <article>¡Te esperamos!</article>
+                        </div>
+                        <a href="#" class="btn-close-modal"></a>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <div class="single_event">
+            <div class="event_details">
+                <div>
+                    <div class="date"><span>18</span> Junio</div>
+                    <div class="time-location">
+                        <p><span></span> 16:00 PM - 18:00 PM</p>
+                        <p><span></span> "Hotel Sheraton" <br> Av. Duarte Quirós 1300, Córdoba.</p>
+                    </div>
+                </div>
+                <p>
+                    Conferencia de Malvinas
+                </p>
+                <br>
+                <div>
+                    <a href="#modal" id="show-modal">ENVIAR</a>
+                    <aside id="modal" class="modal">
+                        <div class="content-modal">
+                            <header>
+                                <a href="#" class="close-modal">X</a>
+                                <h2>¡Reserva realizada!</h2>
+                            </header>
+                            <article>¡Te esperamos!</article>
+                        </div>
+                        <a href="#" class="btn-close-modal"></a>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <div class="single_event">
+            <div class="event_details">
+                <div>
+                    <div class="date"><span>18</span> Junio</div>
+                    <div class="time-location">
+                        <p><span></span> 16:00 PM - 18:00 PM</p>
+                        <p><span></span> "Hotel Sheraton" <br> Av. Duarte Quirós 1300, Córdoba.</p>
+                    </div>
+                </div>
+                <p>
+                    Conferencia de Malvinas
+                </p>
+                <br>
+                <div>
+                    <a href="#modal" id="show-modal">ENVIAR</a>
+                    <aside id="modal" class="modal">
+                        <div class="content-modal">
+                            <header>
+                                <a href="#" class="close-modal">X</a>
+                                <h2>¡Reserva realizada!</h2>
+                            </header>
+                            <article>¡Te esperamos!</article>
+                        </div>
+                        <a href="#" class="btn-close-modal"></a>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <div class="single_event">
+            <div class="event_details">
+                <div>
+                    <div class="date"><span>02</span> Julio</div>
+                    <div class="time-location">
+                        <p><span></span> 10:00 AM - 11:30 PM</p>
+                        <p><span></span> "Escuelas Pías" <br> Av. 24 de Septiembre 1265, Córdoba.</p>
+                    </div>
+                </div>
+                <p>
+                    Conferencia de Malvinas
+                </p>
+                <br>
+                <div>
+                    <a href="#modal" id="show-modal">ENVIAR</a>
+                    <aside id="modal" class="modal">
+                        <div class="content-modal">
+                            <header>
+                                <a href="#" class="close-modal">X</a>
+                                <h2>¡Reserva realizada!</h2>
+                            </header>
+                            <article>¡Te esperamos!</article>
+                        </div>
+                        <a href="#" class="btn-close-modal"></a>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <div class="single_event">
+            <div class="event_details">
+                <div>
+                    <div class="date"><span>02</span> Julio</div>
+                    <div class="time-location">
+                        <p><span></span> 10:00 AM - 11:30 PM</p>
+                        <p><span></span> "Escuelas Pías" <br> Av. 24 de Septiembre 1265, Córdoba.</p>
+                    </div>
+                </div>
+                <p>
+                    Conferencia de Malvinas
+                </p>
+                <br>
+                <div>
+                    <a href="#modal" id="show-modal">ENVIAR</a>
+                    <aside id="modal" class="modal">
+                        <div class="content-modal">
+                            <header>
+                                <a href="#" class="close-modal">X</a>
+                                <h2>¡Reserva realizada!</h2>
+                            </header>
+                            <article>¡Te esperamos!</article>
+                        </div>
+                        <a href="#" class="btn-close-modal"></a>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <div class="single_event">
+            <div class="event_details">
+                <div>
+                    <div class="date"><span>02</span> Julio</div>
+                    <div class="time-location">
+                        <p><span></span> 10:00 AM - 11:30 PM</p>
+                        <p><span></span> "Escuelas Pías" <br> Av. 24 de Septiembre 1265, Córdoba.</p>
+                    </div>
+                </div>
+                <p>
+                    Conferencia de Malvinas
+                </p>
+                <br>
+                <div>
+                    <a href="#modal" id="show-modal">ENVIAR</a>
+                    <aside id="modal" class="modal">
+                        <div class="content-modal">
+                            <header>
+                                <a href="#" class="close-modal">X</a>
+                                <h2>¡Reserva realizada!</h2>
+                            </header>
+                            <article>¡Te esperamos!</article>
+                        </div>
+                        <a href="#" class="btn-close-modal"></a>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="icon">
+            <ul class="iconvar">
+                <p>Creado por Juan Cruz Carballo</p><span class="span">|</span>
+                <p>Todos los derechos reservados &copy;2022</p><span class="span"></span>
+                <li>
+                    <a href="https://www.facebook.com/capitanpablo.carballo" target="_blank">
+                        <img src="Assets/faceblack.png" alt="facebook">
+                    </a>
+                    <a href="https://twitter.com/fuerzaaerea_arg/status/966788689828331520?lang=en" target="_blank">
+                        <img src="Assets/twitgris.png" alt="twitter">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>

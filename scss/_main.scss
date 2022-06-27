@@ -1,32 +1,33 @@
-body{
-	font-family: 'Montserrat', sans-serif;
-}
-.fuente-normal{
-	font-weight: map-get($fuentes, regular);
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
-@each $fo, $nt in $fuentes{
-	.font-#{$fo}{
-		font-weight: $nt;
-	}
+.fuente-normal {
+    font-weight: map-get($fuentes, regular);
 }
 
-@mixin color-base($color){
-	@if($color){
-		.color-mode{
-			background-color: black;
-		}
-	}@else{
-		.color-mode{
-			background-color: white;
-		}
-	}
+@each $fo,
+$nt in $fuentes {
+    .font-#{$fo} {
+        font-weight: $nt;
+    }
 }
+
+@mixin color-base($color) {
+    @if($color) {
+        .color-mode {
+            background-color: black;
+        }
+    }
+
+    @else {
+        .color-mode {
+            background-color: white;
+        }
+    }
+}
+
 @include color-base(false);
-
-
-
-
 
 
 
