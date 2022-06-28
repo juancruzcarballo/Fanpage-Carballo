@@ -274,12 +274,12 @@ h1 {
 
 .poema {
   width: 100%;
-  padding: 0px 35px 30px 35px;
+  padding: 0px 45px 35px 45px;
 }
 
 .poema p {
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -329,7 +329,7 @@ h1 {
 
 .events_area {
   width: 100%;
-  padding: 30px 50px 70px 50px;
+  padding: 30px 30px 70px 30px;
 }
 
 .intro {
@@ -350,16 +350,6 @@ h1 {
 
 .descrip {
   background-color: steelblue;
-}
-
-#footer {
-  width: 100%;
-  height: auto;
-  background-color: #222222;
-  color: #e1dcd4;
-  font-size: 1rem;
-  bottom: 0;
-  margin: 0 auto;
 }
 
 .container {
@@ -433,48 +423,34 @@ h1 {
   z-index: 100;
 }
 
+.float .my-float {
+  margin-top: 16px;
+}
+
 .float:hover {
   text-decoration: none;
   color: #25d366;
   background-color: #fff;
 }
 
-.my-float {
-  margin-top: 16px;
-}
-
-span {
-  padding: 0px 10px 10px 10px;
-}
-
 .bio {
-  padding: 30px 40px 50px 40px;
+  padding: 45px 40px 50px 40px;
   color: black;
-}
-
-.iconvar {
-  display: flex;
-  list-style: none;
-}
-
-.icon img {
-  max-width: 12%;
-  height: auto;
-}
-
-.youtubeUno {
-  margin: 30px 100px 30px 100px;
-}
-
-.youtubeDos {
-  margin: 30px 100px 30px 100px;
 }
 
 .videos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px 50px 20px 50px;
+  padding: 20px 20px 60px 20px;
+}
+
+.videos .youtubeUno {
+  margin: 20px 20px 20px 20px;
+}
+
+.videos .youtubeDos {
+  margin: 20px 20px 20px 20px;
 }
 
 @media all and (max-width: 768px) {
@@ -598,4 +574,28 @@ span {
   font-weight: bold;
   font-size: 1.5em;
   text-decoration: none;
+}
+
+#footer {
+  width: 100%;
+  height: auto;
+  background-color: #222222;
+  color: #e1dcd4;
+  font-size: 1rem;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+#footer .iconvar {
+  display: flex;
+  list-style: none;
+}
+
+#footer .icon img {
+  max-width: 12%;
+  height: auto;
+}
+
+#footer span {
+  padding: 0px 10px 10px 10px;
 }
